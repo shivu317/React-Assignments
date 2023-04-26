@@ -1,0 +1,25 @@
+.cart-container{
+    
+    overflow: hidden;
+    
+    text-align: center;
+    
+    width: 55vh;
+    height: 70vh;
+    /* border:2px solid black; */
+    background-color: white;
+    margin-right: 34px;
+    margin-bottom: 34px;
+
+}
+
+.btn{
+    text-align: center;
+    padding: 17px;
+    width: 54.7vh;
+    border: 2px solod red;
+    position: relative;
+    top: -88px;
+    color: white;
+    /* border: hidden; */
+}

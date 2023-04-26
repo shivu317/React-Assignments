@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  
+  
+}
+body{
+  
+  background-color: rgba(158, 149, 137, 0.37);
+}
+
+.cart{
+  display: flex;
+  
+  
+  background-color: rgba(235, 232, 228, 0.114);
+
+  
+  
+}
