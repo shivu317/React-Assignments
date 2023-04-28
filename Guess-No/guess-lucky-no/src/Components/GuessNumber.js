@@ -13,11 +13,8 @@ const[count1,setCount1]=useState()
 function handleEvent(){
     
     let yoursNumber=number
-    setCount(count + 1)
-    if(yoursNumber.trim()===''|| typeof yoursNumber==="string")
-    {
-        alert("it is not a number")
-    }
+    
+    
     else if(yoursNumber <randomnum){
         alert("you guessed a smaller number")
         setCount(count + 1)
