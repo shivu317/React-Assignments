@@ -1,0 +1,1 @@
+export const ar =["Home","About","Projects","Videos","Contact"]
