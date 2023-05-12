@@ -1,3 +1,7 @@
+body{
+    background-color:greenyellow;
+}
+
 .board {
     display: flex;
     flex-direction: column;
@@ -14,9 +18,9 @@
     font-size: 36px;
     font-weight: bold;
     margin: 4px;
-    background-color: #fff;
+    background-color:aquamarine;
     color: #333;
-    border: 2px solid #ccc;
+    border: 5px solid  rgb(6, 28, 68);
     cursor: pointer;
     outline: none;
     transition: all 0.2s ease-in-out;
@@ -35,7 +39,7 @@
     font-size: 18px;
     margin-top: 16px;
     padding: 8px 16px;
-    background-color: #fff;
+    background-color:rgb(105, 195, 231);
     color: #333;
     border: 2px solid #ccc;
     cursor: pointer;
