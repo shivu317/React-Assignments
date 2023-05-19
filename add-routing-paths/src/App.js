@@ -1,12 +1,13 @@
-
+import logo from './logo.svg';
 import './App.css';
-import Add from './Components/Add';
+import Section from './Components/Section/Section'
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-       <Add/>
+    <div className="container">
+      <Section/>
     </div>
   );
 }
 
+export default App;
