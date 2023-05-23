@@ -1,0 +1,68 @@
+/* src/styles/search.css */
+
+/* Search Bar Styles */
+.search-bar {
+  position: relative; /* Set position to relative */
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input[type="text"] {
+  flex-shrink: 0;
+  width: 200px;
+  max-width: 100%;
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #777;
+}
+
+.search-bar i.search-icon {
+  margin-left: 8px;
+  color: #777;
+}
+
+/* Search Result Styles */
+.search-results {
+  position: absolute; /* Set position to absolute */
+  top: 100%; /* Position the search results below the search bar */
+  left: 0;
+  width: 100%;
+  max-height: 200px; /* Set a maximum height for the search results */
+  overflow-y: auto; /* Add scroll when search results exceed max-height */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+li:last-child {
+  border-bottom: none; /* Remove border from last search result */
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+
