@@ -1,0 +1,40 @@
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    
+  }
+  
+  .user-email {
+    margin-left: 10px;
+    color: gray;
+    
+  }
+  
+  .btn-update,
+  .btn-delete {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
